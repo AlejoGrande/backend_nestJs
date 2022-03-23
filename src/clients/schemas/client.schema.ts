@@ -1,6 +1,6 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document, ObjectId } from 'mongoose';
-import { Account } from 'src/accounts/schemas/account.schema';
+import { Account } from './../../accounts/schemas/Account.schema';
 import * as mongoose from "mongoose";
 
 export type ClientDocument = Client & Document;

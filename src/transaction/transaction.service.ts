@@ -4,7 +4,7 @@ import { InjectModel } from '@nestjs/mongoose';
 import { Transaction, TransactionDocument } from './schemas/transaction.schema';
 import { CreateTransactionDto } from './dto/create-transaction.dto';
 import { Types } from "mongoose";
-import { Account } from 'src/accounts/schemas/account.schema';
+
 
 
 

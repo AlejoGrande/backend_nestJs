@@ -2,7 +2,7 @@
 import { Injectable } from '@nestjs/common';
 import { Model } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
-import { Account, AccountDocument } from './schemas/Account.schema';
+import { Account, AccountDocument } from './schemas/account.schema';
 import { CreateAccountDto } from './dto/create-Account.dto';
 import { Types } from "mongoose";
 

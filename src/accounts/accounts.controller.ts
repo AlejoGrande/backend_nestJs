@@ -3,7 +3,7 @@ import { Body, Controller, Delete, Get, HttpStatus, Param, Post, Res } from '@ne
 import { response } from 'express';
 import { AccountsService } from './accounts.service';
 import { CreateAccountDto } from './dto/create-Account.dto';
-import { Account } from './schemas/Account.schema';
+import { Account } from './schemas/account.schema';
 import { ClientsService } from "./../clients/clients.service";
 @Controller('accounts')
 export class AccountsController {
